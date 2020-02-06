@@ -95,6 +95,7 @@ describe Student do
         sam.save
 
         all_in_9 = Student.all_students_in_grade_9
+        #binding.pry
         expect(all_in_9.size).to eq(1)
       end
     end
